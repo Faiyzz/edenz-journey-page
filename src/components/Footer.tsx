@@ -99,6 +99,7 @@ const Footer = () => {
             </p>
             <div className="flex flex-wrap justify-center gap-4 md:gap-6">
               <Link to="/privacy-policy" onClick={scrollToTop} className="text-gray-500 hover:text-primary transition-colors">Privacy Policy</Link>
+                <Link to="/refund-policy" onClick={scrollToTop} className="text-gray-500 hover:text-primary transition-colors">Refund Policy</Link>
               <Link to="/terms-of-service" onClick={scrollToTop} className="text-gray-500 hover:text-primary transition-colors">Terms of Service</Link>
               <Link to="/cookies-policy" onClick={scrollToTop} className="text-gray-500 hover:text-primary transition-colors">Cookies Policy</Link>
             </div>

@@ -47,6 +47,7 @@ import B2BDashboard from '@/pages/b2b/B2BDashboard';
 
 import ProtectedRoute from '@/components/ProtectedRoute';
 import './App.css';
+import RefundPolicy from './pages/RefundPolicy';
 
 const queryClient = new QueryClient();
 
@@ -69,6 +70,7 @@ function App() {
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/terms-of-service" element={<TermsOfService />} />
             <Route path="/cookies-policy" element={<CookiesPolicy />} />
+            <Route path="/refund-policy" element={<RefundPolicy />} />
 
             {/* Student routes */}
             <Route path="/student/login" element={<StudentLogin />} />

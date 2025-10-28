@@ -5,7 +5,7 @@ import Hero from '@/components/Hero';
 import Features from '@/components/Features';
 import Destinations from '@/components/Destinations';
 import Stats from '@/components/Stats';
-
+import ServiceFeeNotice from '@/components/ServiceFeeNotice';
 import CTA from '@/components/CTA';
 import Footer from '@/components/Footer';
 
@@ -50,6 +50,7 @@ const Index = () => {
         <Stats />
         <Destinations />
         <CTA />
+        <ServiceFeeNotice />
       </main>
       <Footer />
      
