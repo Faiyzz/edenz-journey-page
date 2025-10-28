@@ -47,7 +47,7 @@ const Navbar = () => {
             <Link to="/" className="flex items-center" onClick={scrollToTop}>
               <img 
                 src="/edenz-logo.webp" 
-                alt="Edenz Consultants Logo" 
+                alt="Edenz Consultants" 
                 className="h-8 md:h-10 w-auto mr-2"
               />
               <div className="hidden sm:block">
